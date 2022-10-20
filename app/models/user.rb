@@ -4,10 +4,10 @@ class User < ApplicationRecord
   before_save :downcase_email
   
   validates :name, presence: true, length: {maximum: Settings.maximum_name}
-  validates :email, presence: true, length: {maximum: Settings.maximum_email},
+  validates :email, presence: true, length: {maximum: Settings.maximum_email_length},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: true
   validates :password, presence: true,
-    length: {minimum: Settings.minimum_pass}
+    length: {minimum: Settings.minimum_pass_length}
 
   has_secure_password
 
