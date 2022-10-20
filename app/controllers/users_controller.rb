@@ -3,13 +3,6 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show
-    return if @user = User.find_by(id: params[:id])
-
-    flash[:danger] = t "not_found"
-    redirect_to root_url
-  end
-
   def  create
     @user = User.new user_params
     if @user.save
@@ -17,8 +10,15 @@ class UsersController < ApplicationController
       redirect_to @user
     else
       flash[:danger] = t "registration_failed"
-      render 'new'
+      render :new
     end
+  end
+
+  def show
+    return if @user = User.find_by(id: params[:id])
+
+    flash[:danger] = t "not_found"
+    redirect_to root_url
   end
 
   private

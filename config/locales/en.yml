@@ -73,3 +73,12 @@ en:
   not_found: Not found
   welcome_to_the_sample_app: Welcome to the Sample App!
   registration_failed: Registration failed
+  login: Log in
+  new_user: New user?
+  invalid_email_or_password_comnination: Invalid email/password comnination
+  users: Users
+  account: Account
+  profile: Profile
+  settings: Settings
+  logout: Logout
+  not_success: Not success
