@@ -33,4 +33,46 @@ vi:
   sign_up: Đăng kí
   this_will_be_a_signup_page_for_new_users: Đây sẽ là trang đăng kí cho những users mới
   news: Tin tức
-  
+  name: Tên
+  email: Email
+  password: Mật khẩu
+  password_confirmation: Nhập lại mật khẩu
+  create_my_account: Tạo tài khoản của tôi
+  confirmation:  Nhập lại Mật khẩu
+  the_form_contains: form chứa
+  not_found: Không tìm thấy
+  welcome_to_the_sample_app: Chào mừng bạn đến với Ứng dụng mẫu!
+  registration_failed: Đăng ký thất bại
+  login: Đăng nhập
+  new_user: Người dùng mới?
+  invalid_email_or_password_comnination:  Password hoặc email không tồn tại
+  users: Người dùng
+  account: Tài khoản
+  profile: Hồ sơ
+  settings: Cài đặt
+  logout: Đăng xuất
+  not_success: Không thành công
+  remember_me_on_this_computer: Nhớ tôi vào máy này
+  remember_me: Nhớ tôi
+  not_success: Không thành công
+  remember_me_on_this_computer: Nhớ tôi vào máy này
+  remember_me: Nhớ tôi
+  save_changes: Lưu lại thay đổi
+  edit_user: Sửa người dùng
+  profile_updated: Hồ sơ đã được cập nhật
+  please_log_in: Hãy đăng nhập
+  all_users: Tất cả các người dùng
+  you_sure: Bạn có chắc chắn muốn xóa?
+  user_deleted: Người dùng đã bị xóa
+  delete: Xóa
+  user_not_deleted: không xóa được user
+  please_check_your_email_to_activate_your_account: Hãy check lại email của bạn
+  account_not_activated: Tài khoản chưa được kích hoạt
+  check_your_email_for_the_activation_link: Kiểm tra lại email của bạn cho link kích hoạt
+  account_activated: Tài khoản đã được kích hoạt
+  invalid_activation_link: link kích hoạt không có sẵn
+  account_activation: kích hoạt tài khoản
+  hi: xin chào
+  account_not_activated_check_your_email_for_the_activation_link: Tài khoản chưa được kích hoạt. Kiểm tra lại email của bạn cho link kích hoạt
+  welcome_to_the_sample_app_click_on_the_link_below_to_activate_your_account: Chào mừng đến với ứng dụng mẫu, click vào link kích hoạt tài khoản của bạn
+  activate: Kích hoạt
