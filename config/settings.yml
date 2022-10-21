@@ -15,3 +15,4 @@ minimum_pass_length: 6
 size: 80
 gravatar_for_user_size: 50
 user_pages: 3
+hour_reset: 2
