@@ -109,3 +109,7 @@ vi:
   error:
     one: "%{count} lỗi"
     other: "%{count} lỗi"
+  following: Đang theo dõi
+  followers: Người theo dõi
+  follow: Theo dõi
+  unfollow: Bỏ theo dõi
